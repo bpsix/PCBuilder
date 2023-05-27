@@ -5,18 +5,19 @@ import computer.components.*;
 public class Computer {
 
     private final Case c;
-    private final Fan f ;
-    private final GraphicsCard card;
-    private final Motherboard motherboard;
-    private final Processor processor;
-    private final Ram ram;
+    private final Fan f;
+    private final GraphicsCard gc;
+    private final Motherboard mb;
+    private final Processor p;
+    private final Ram r;
 
-    public Computer(Case c, Fan f, GraphicsCard card, Motherboard motherboard, Processor processor, Ram ram) {
+    Computer(Case c, Fan f, GraphicsCard gc, Motherboard mb, Processor p, Ram r) {
         this.c = c;
         this.f = f;
-        this.card = card;
-        this.motherboard = motherboard;
-        this.processor = processor;
-        this.ram = ram;
+        this.gc = gc;
+        this.mb = mb;
+        this.p = p;
+        this.r = r;
     }
+
 }

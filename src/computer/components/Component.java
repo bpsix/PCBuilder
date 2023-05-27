@@ -10,10 +10,4 @@ public abstract class Component {
         this.price = price;
     }
 
-    @Override
-    public String toString() {
-        return "Name = " + name + "\n" +
-                "Price = " + price + "\n";
-    }
-
 }
